@@ -29,9 +29,23 @@ While traditionally shellcode is hosted on centralized C2 infrastructure or bund
 
 ---
 
-## 📁 Demo
+### 🧱 Requirements
 
-Address of Already deployed Smart Contract containing calc.exe Shellcode : ``` 0xD57c5867BbD350B97cff9FAd9569089a0Af2EC1d ```
+- [Rust](https://www.rust-lang.org/tools/install)
+- **Windows**
+- Address of Already deployed Smart Contract containing calc.exe Shellcode : ``` 0xD57c5867BbD350B97cff9FAd9569089a0Af2EC1d ```
+
+  
+---
+## ⚙️ Step-by-Step
+```powershell
+git clone https://github.com/SAAITAAMAA/EtherHiding.git
+cd YOUR_REPO
+cargo build
+cargo run
+```
+---
+## 📽️ Demo
 
 https://github.com/user-attachments/assets/cc42ca00-5b57-4864-83ac-644a65761800
 
