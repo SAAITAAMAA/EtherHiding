@@ -40,7 +40,7 @@ While traditionally shellcode is hosted on centralized C2 infrastructure or bund
 ## ⚙️ Step-by-Step
 ```powershell
 git clone https://github.com/SAAITAAMAA/EtherHiding.git
-cd EtherHiding.git
+cd EtherHiding
 cargo build
 cargo run
 ```
